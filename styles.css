@@ -2,24 +2,27 @@ body {
     background: #07080f;
     font-family: 'Raleway';
     color: #FFFFFF;
-    padding-top: 10em;
 }
 
 .container {
-    max-width: 760px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translate(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    max-width: max-content;
 }
 
 .intro {
-    padding: 2em 0 1em 0;
+    padding-bottom: 0.5em;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 36px;
+    line-height: 40px;
 }
 
-.profile,
-.current_job,
+.links,
 .bottom {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     font-weight: 300;
     font-size: 24px;
     line-height: 34px;
@@ -28,7 +31,6 @@ body {
 a.yabro {
     color: #d16969;
 }
-
 a.yabro:hover,
 a.yabro:focus {
     color: #ab4949;
@@ -37,7 +39,6 @@ a.yabro:focus {
 a.github {
     color: #768599;
 }
-
 a.github:hover,
 a.github:focus {
     color: #525d6b;
@@ -46,7 +47,6 @@ a.github:focus {
 a.linkedin {
     color: #0976b4;
 }
-
 a.linkedin:hover,
 a.linkedin:focus {
     color: #086498;
@@ -55,7 +55,6 @@ a.linkedin:focus {
 a.twitter {
     color: #1d9bf0;
 }
-
 a.twitter:hover,
 a.twitter:focus {
     color: #086498;
@@ -64,7 +63,6 @@ a.twitter:focus {
 a.telegram {
     color: #24a4e4;
 }
-
 a.telegram:hover,
 a.telegram:focus {
     color: #086498;
@@ -73,8 +71,7 @@ a.telegram:focus {
 a.email {
     color: #bd7db7;
 }
-
 a.email:hover,
 a.email:focus {
-    color: #086498;
+    color: #965a91;
 }
